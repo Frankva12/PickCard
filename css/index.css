@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(155, 226, 226);
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 712px;
+    text-align: justify;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 765px;
+    background-color: white;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-form{
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+
+.form-credit{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.number {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+#btn-send{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#btn-return{
+    cursor: pointer;
+    padding: 20px;
+}
+
+.error-white{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:100px;
+    left: 150px;
+    margin: auto;
+    background-color: beige;
+}
+
+.correct{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:100px;
+    left: 150px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.info-error{
+    text-align: center;
+}
+.titleError{
+    font-family: 'Oswald', sans-serif;     
+    font-size: 30px;
+}
+
+.CreditNum{
+    border: solid rgba(49, 101, 179, 0.274);
+}
+
+.hide{
+    display: none;
+}
+#btn-confirm{
+    cursor: pointer;
+}
